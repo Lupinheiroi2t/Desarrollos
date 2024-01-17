@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <act_window
+        id="route_calculator_action"
+        name="Route Calculator"
+        res_model="route.calculator"
+        view_mode="tree,form,kanban"/>
+    <menuitem
+        id="route_calculator_menu"
+        name="Route Calculator"
+        action="route_calculator_action"
+        sequence="1"/>
+
+
+</odoo>
